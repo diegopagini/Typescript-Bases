@@ -1,12 +1,6 @@
-(()=> {
+(() => {
+  // strictNullChecks
+  let isActive: boolean = null;
 
-    // strictNullChecks
-    let isActive: boolean = null;
-
-    
-
-    // console.log(isActive)
-
-
-
-})()
+  // console.log(isActive)
+})();

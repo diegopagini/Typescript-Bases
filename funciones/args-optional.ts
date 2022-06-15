@@ -1,16 +1,9 @@
 (() => {
+  const fullName = (firstName: string, lastName?: string): string => {
+    return `${firstName} ${lastName || "----"}`;
+  };
 
-    const fullName = ( firstName: string, lastName?:string ): string => {
+  const name = fullName("Tony");
 
-        return `${ firstName } ${ lastName || '----' }`;
-
-    }
-
-    const name = fullName( 'Tony' );
-
-    console.log({ name });
-
-
-})()
-
-
+  console.log({ name });
+})();
